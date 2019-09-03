@@ -1,0 +1,64 @@
+
+[Contain underscore]
+# A tibble: 13 x 4
+   type                underscore     n percentage
+   <fct>               <lgl>      <int>      <dbl>
+ 1 class               FALSE        165      90.2 
+ 2 class               TRUE          18       9.84
+ 3 instance_method     FALSE       1978      73.2 
+ 4 instance_method     TRUE         724      26.8 
+ 5 instance_var_assign FALSE        461      84.7 
+ 6 instance_var_assign TRUE          83      15.3 
+ 7 local_var_assign    FALSE       8830      88.1 
+ 8 local_var_assign    TRUE        1192      11.9 
+ 9 global_var_assign   FALSE         44      81.5 
+10 global_var_assign   TRUE          10      18.5 
+11 class_method        FALSE         11     100   
+12 class_var_assign    FALSE         45      95.7 
+13 class_var_assign    TRUE           2       4.26
+
+[UPPERCASE]
+# A tibble: 10 x 4
+   type                uppercase     n percentage
+   <fct>               <lgl>     <int>      <dbl>
+ 1 class               FALSE       181      98.9 
+ 2 class               TRUE          2       1.09
+ 3 instance_method     FALSE      2702     100   
+ 4 instance_var_assign FALSE       544     100   
+ 5 local_var_assign    FALSE     10022     100   
+ 6 global_var_assign   FALSE        44      81.5 
+ 7 global_var_assign   TRUE         10      18.5 
+ 8 class_method        FALSE        11     100   
+ 9 class_var_assign    FALSE        46      97.9 
+10 class_var_assign    TRUE          1       2.13
+
+[lowerCamelCase]
+# A tibble: 13 x 4
+   type                lower_camel_case     n percentage
+   <fct>               <lgl>            <int>      <dbl>
+ 1 class               FALSE              183     100   
+ 2 instance_method     FALSE              739      27.4 
+ 3 instance_method     TRUE              1963      72.6 
+ 4 instance_var_assign FALSE               83      15.3 
+ 5 instance_var_assign TRUE               461      84.7 
+ 6 local_var_assign    FALSE             1207      12.0 
+ 7 local_var_assign    TRUE              8815      88.0 
+ 8 global_var_assign   FALSE               11      20.4 
+ 9 global_var_assign   TRUE                43      79.6 
+10 class_method        FALSE                1       9.09
+11 class_method        TRUE                10      90.9 
+12 class_var_assign    FALSE                2       4.26
+13 class_var_assign    TRUE                45      95.7 
+
+[UpperCamelCase]
+# A tibble: 8 x 4
+  type                upper_camel_case     n percentage
+  <fct>               <lgl>            <int>      <dbl>
+1 class               FALSE               26       14.2
+2 class               TRUE               157       85.8
+3 instance_method     FALSE             2702      100  
+4 instance_var_assign FALSE              544      100  
+5 local_var_assign    FALSE            10022      100  
+6 global_var_assign   FALSE               54      100  
+7 class_method        FALSE               11      100  
+8 class_var_assign    FALSE               47      100  
