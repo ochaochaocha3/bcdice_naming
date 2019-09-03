@@ -3,6 +3,7 @@
 [BCDice](https://github.com/bcdice/BCDice)のソースコードにおける名前付けのパターンを集計します。
 
 * [集計結果](bcdice_naming_result.txt)
+* [集計結果の見方](#集計結果の見方)
 
 ## 動作確認環境
 
