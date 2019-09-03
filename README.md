@@ -11,6 +11,7 @@
     * [Referral](https://github.com/testdouble/referral) v0.0.4
 * [R](https://www.r-project.org/) v3.6.1
     * [tidyverse](https://www.tidyverse.org/) 1.2.1
+* Bash
 
 ## 準備
 
